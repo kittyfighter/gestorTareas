@@ -107,17 +107,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+CZ:wght@100..400&display=swap);"]);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Playwrite CZ", cursive;
+    background: linear-gradient(to right, #ffd6e3, #ffffff);
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#imagen-superior {
+    position: absolute;
+    top: 130px; 
+    left: 50%; 
+    transform: translateX(-50%); 
 }
 
 /* Estilos para el contenedor principal */
@@ -146,7 +155,7 @@ input {
 /* Estilos al botón */
 button {
     padding: 5px 8px;
-    background-color: #007bff;
+    background-color: #f794db;
     color: white;
     border: none;
     border-radius: 3px;
@@ -174,7 +183,14 @@ li {
 li.completed {
     text-decoration: line-through;
     color: #888;
-}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA,sBAAsB;AACtB;IACI,8BAA8B;IAC9B,yBAAyB;IACzB,SAAS;IACT,UAAU;IACV,aAAa;IACb,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA,yCAAyC;AACzC;IACI,uBAAuB;IACvB,aAAa;IACb,kBAAkB;IAClB,uCAAuC;AAC3C;;AAEA,+BAA+B;AAC/B;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA,qBAAqB;AACrB;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;IAClB,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA,qBAAqB;AACrB;IACI,gBAAgB;IAChB,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,eAAe;AACnB;;AAEA,wBAAwB;AACxB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,wCAAwC;AACxC;IACI,yBAAyB;IACzB,aAAa;IACb,sBAAsB;IACtB,gBAAgB;IAChB,aAAa;IACb,8BAA8B;IAC9B,mBAAmB;AACvB;;AAEA,kDAAkD;AAClD;IACI,6BAA6B;IAC7B,WAAW;AACf","sourcesContent":["/* Estilos generales */\r\nbody {\r\n    font-family: Arial, sans-serif;\r\n    background-color: #f4f4f4;\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 100vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n/* Estilos para el contenedor principal */\r\n#app {\r\n    background-color: white;\r\n    padding: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n/* Estilos para el formulario */\r\nform {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos al input */\r\ninput {\r\n    width: 75%;\r\n    padding: 8px;\r\n    margin-right: 10px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 3px;\r\n}\r\n\r\n/* Estilos al botón */\r\nbutton {\r\n    padding: 5px 8px;\r\n    background-color: #007bff;\r\n    color: white;\r\n    border: none;\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/* Estilos de la lista */\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/* Estilos a los elementos de la lista */\r\nli {\r\n    background-color: #f4f4f4;\r\n    padding: 10px;\r\n    border: 1px solid #ddd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n/* Estilos para cuando una tarea está completada */\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #888;\r\n}"],"sourceRoot":""}]);
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffacc6;
+}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAGA,sBAAsB;AACtB;IACI,oCAAoC;IACpC,uDAAuD;IACvD,SAAS;IACT,UAAU;IACV,aAAa;IACb,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,UAAU;IACV,SAAS;IACT,2BAA2B;AAC/B;;AAEA,yCAAyC;AACzC;IACI,uBAAuB;IACvB,aAAa;IACb,kBAAkB;IAClB,uCAAuC;AAC3C;;AAEA,+BAA+B;AAC/B;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA,qBAAqB;AACrB;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;IAClB,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA,qBAAqB;AACrB;IACI,gBAAgB;IAChB,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,eAAe;AACnB;;AAEA,wBAAwB;AACxB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,wCAAwC;AACxC;IACI,yBAAyB;IACzB,aAAa;IACb,sBAAsB;IACtB,gBAAgB;IAChB,aAAa;IACb,8BAA8B;IAC9B,mBAAmB;AACvB;;AAEA,kDAAkD;AAClD;IACI,6BAA6B;IAC7B,WAAW;AACf;;AAEA;IACI,gCAAgC;IAChC,gBAAgB;IAChB,kBAAkB;IAClB,cAAc;AAClB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');\r\n@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+CZ:wght@100..400&display=swap');\r\n\r\n/* Estilos generales */\r\nbody {\r\n    font-family: \"Playwrite CZ\", cursive;\r\n    background: linear-gradient(to right, #ffd6e3, #ffffff);\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 100vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n#imagen-superior {\r\n    position: absolute;\r\n    top: 130px; \r\n    left: 50%; \r\n    transform: translateX(-50%); \r\n}\r\n\r\n/* Estilos para el contenedor principal */\r\n#app {\r\n    background-color: white;\r\n    padding: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n/* Estilos para el formulario */\r\nform {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos al input */\r\ninput {\r\n    width: 75%;\r\n    padding: 8px;\r\n    margin-right: 10px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 3px;\r\n}\r\n\r\n/* Estilos al botón */\r\nbutton {\r\n    padding: 5px 8px;\r\n    background-color: #f794db;\r\n    color: white;\r\n    border: none;\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/* Estilos de la lista */\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/* Estilos a los elementos de la lista */\r\nli {\r\n    background-color: #f4f4f4;\r\n    padding: 10px;\r\n    border: 1px solid #ddd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n/* Estilos para cuando una tarea está completada */\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #888;\r\n}\r\n\r\nh1 {\r\n    font-family: \"Pacifico\", cursive;\r\n    font-weight: 400;\r\n    font-style: normal;\r\n    color: #ffacc6;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

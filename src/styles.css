@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+CZ:wght@100..400&display=swap');
+
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Playwrite CZ", cursive;
+    background: linear-gradient(to right, #ffd6e3, #ffffff);
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#imagen-superior {
+    position: absolute;
+    top: 130px; 
+    left: 50%; 
+    transform: translateX(-50%); 
 }
 
 /* Estilos para el contenedor principal */
@@ -36,7 +46,7 @@ input {
 /* Estilos al botón */
 button {
     padding: 5px 8px;
-    background-color: #007bff;
+    background-color: #f794db;
     color: white;
     border: none;
     border-radius: 3px;
@@ -64,4 +74,11 @@ li {
 li.completed {
     text-decoration: line-through;
     color: #888;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffacc6;
 }
